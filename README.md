@@ -51,7 +51,6 @@ No external database or web server is required.
 susu-project/
 │
 ├── susu.py
-├── test_susu.py
 ├── README.md
 └── NOTES.md
 ```
