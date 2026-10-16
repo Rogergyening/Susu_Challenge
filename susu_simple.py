@@ -1,14 +1,4 @@
-# Simple Susu program (rotating savings group) - amounts in GHS
-#
-# MY ASSUMPTIONS (things the instructions did not say):
-# 1. I use Decimal instead of float, because float can give rounding errors
-#    (for example 0.1 + 0.2 is not exactly 0.3).
-# 2. Members can only be added before the first payment is recorded.
-#    After that the group is locked so the pot and the order stay the same.
-# 3. We need at least 2 members to record payments or close a week.
-# 4. Payments are only for the CURRENT week.
-# 5. Names are not case sensitive ("Ama" and "ama" are the same person).
-# 6. After every member has received the pot once, the cycle is finished.
+
 
 from decimal import Decimal, InvalidOperation
 
